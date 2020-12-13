@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* React Quickstarter Styles */
+
+/* App */
+
+body {
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+
+/* Footer */
+.btn,
+.nav-link {
+  color: #9400ff !important;
+  background-color: transparent !important;
+  border-color: #9400ff !important;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  height: 100px;
+  padding: 25px;
+  background-color: #f8f9fa;
+}
+
+.footer img {
+  display: block;
+  margin: 0 auto;
+}
